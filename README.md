@@ -27,9 +27,6 @@ FetchRewardsChallenge/
 │   │   │   │   ├── ItemAdapter.java            # RecyclerView adapter
 │   │   │   ├── res/layout/activity_main.xml    # Main UI layout
 │   │   │   ├── res/layout/item_layout.xml      # Layout for each list item
-|
-│── README.md                 # Project documentation
-│── build.gradle              # Gradle build script
 
 ```
 
