@@ -14,7 +14,7 @@ This Android application retrieves a list of items from an API, then filters, so
 ## 🛠 Running the app
 
 ### Cloning the Repository
-git clone https://github.com/Prriyansh/FetchRewardsChallenge.git
+-  Use command: git clone https://github.com/Prriyansh/FetchRewardsChallenge.git
 
 ### Android Studio
 1. Launch Android Studio.
@@ -35,7 +35,7 @@ git clone https://github.com/Prriyansh/FetchRewardsChallenge.git
 
 ### Data Processing
 -  Null or Empty Names: These are removed from the dataset.  
-- 📌 **Sorting Order**: Data is sorted **first by `listId` (ascending)** and then **by `name` (ascending, case-sensitive)**.  
+-  Sorting Order: Data is sorted **first by `listId` (ascending)** and then **by `name` (ascending, case-sensitive)**.  
 
 ### User Interface
 - RecyclerView efficiently renders the list of items.  
@@ -52,7 +52,7 @@ git clone https://github.com/Prriyansh/FetchRewardsChallenge.git
 
 ## 🌍 API Reference
 The application fetches data from:  
-🔗 `https://fetch-hiring.s3.amazonaws.com/hiring.json`
+🔗 https://fetch-hiring.s3.amazonaws.com/hiring.json
 
 ---
 
