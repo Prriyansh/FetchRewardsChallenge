@@ -12,7 +12,9 @@ A native Android application built using Java to fetch, filter, and display data
 ---
 
 ## 📁 Repository Structure
+The main files are located in:
 
+```
 FetchRewardsChallenge/
 │── app/                    
 │   ├── src/                
@@ -29,6 +31,7 @@ FetchRewardsChallenge/
 │── README.md                 # Project documentation
 │── build.gradle              # Gradle build script
 
+```
 
 ---
 
