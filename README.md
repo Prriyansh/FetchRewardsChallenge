@@ -1,13 +1,34 @@
 #  Fetch Rewards Challenge
 
 ## 📌 Overview
-This Android application retrieves a list of items from an API, then filters, sorts and displays it 
+A native Android application built using Java to fetch, filter, and display data from an API. The app presents sorted data in a clean and structured RecyclerView
 
 ## ✨ Features
 -  API Integration: Retrieves data using Retrofit.  
 -  Data Processing: Filters out items with null or empty names.  
 -  Sorting Mechanism: Orders items by `listId` and then alphabetically by `name`.  
 -  UI: Displays data efficiently using `RecyclerView`.  
+
+---
+
+## 📁 Repository Structure
+
+FetchRewardsChallenge/
+│── app/                    
+│   ├── src/                
+│   │   ├── main/           
+│   │   │   ├── java/com/example/fetchrewardschallenge/
+│   │   │   │   ├── MainActivity.java           # Entry point of the app
+│   │   │   │   ├── model/Item.java             # Data model for API response
+│   │   │   │   ├── network/ApiService.java     # Retrofit API interface
+│   │   │   │   ├── network/RetrofitClient.java # API client setup
+│   │   │   │   ├── ItemAdapter.java            # RecyclerView adapter
+│   │   │   ├── res/layout/activity_main.xml    # Main UI layout
+│   │   │   ├── res/layout/item_layout.xml      # Layout for each list item
+|
+│── README.md                 # Project documentation
+│── build.gradle              # Gradle build script
+
 
 ---
 
@@ -18,7 +39,7 @@ This Android application retrieves a list of items from an API, then filters, so
 
 ### Android Studio
 1. Launch Android Studio.
-3. Navigate to the `FetchRewardsChallenge` directory and open it.  
+2. Navigate to the `FetchRewardsChallenge` directory and open it.  
 
 ###  Running the Application
 1. Connect to an Android Device or a emulator
@@ -47,12 +68,6 @@ This Android application retrieves a list of items from an API, then filters, so
 - Sorting Consistency: Ensures reliable ordering of data.  
 - API Failures: Displays an error message if the network request fails.  
 - Performance Optimization: Uses `RecyclerView` with ViewHolder pattern for smooth scrolling.  
-
----
-
-## 🌍 API Reference
-The application fetches data from:  
-🔗 https://fetch-hiring.s3.amazonaws.com/hiring.json
 
 ---
 
